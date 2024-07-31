@@ -33,6 +33,7 @@ jobs:
           cwd: "./"
           files: |
             .
+            captain-definition
           outPath: deploy.tar
 
       - name: Deploy App to CapRover
